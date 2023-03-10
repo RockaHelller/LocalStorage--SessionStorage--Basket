@@ -1,0 +1,126 @@
+body {
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+header {
+
+    .navbar {
+        background-color: #4a4a4a !important;
+
+        a {
+            color: white;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        form {
+            .btn {
+                border-color: #00d673 !important;
+                color: #00d673;
+            }
+
+            a{
+                display: flex;
+                text-decoration: none;
+                span {
+                    color: white;
+                    position: relative;
+                    right: 41%;
+                    bottom: 2px;
+                    cursor: pointer;
+    
+                }
+    
+                img {
+                    height: 39px;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+
+main {
+    .all{
+        span{
+            font-size: 30px;
+            color: red;
+            font-family: cursive;
+            border: 1px solid red;
+            height: fit-content;
+            padding: 59px 110px;
+            border-radius: 8px;
+        }
+    }
+    
+
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    
+    .navbar {
+        background-color: #4a4a4a !important;
+
+        a {
+            color: white;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        form {
+            .btn {
+                border-color: #00d673 !important;
+                color: #00d673;
+            }
+
+            a{
+                display: flex;
+                text-decoration: none;
+                span {
+                    color: white;
+                    position: relative;
+                    right: 41%;
+                    bottom: 2px;
+                    cursor: pointer;
+    
+                }
+    
+                img {
+                    height: 39px;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+
+}

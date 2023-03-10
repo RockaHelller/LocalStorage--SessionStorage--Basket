@@ -1,0 +1,111 @@
+body {
+  overflow: hidden;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+header .navbar {
+  background-color: #4a4a4a !important;
+}
+header .navbar a {
+  color: white;
+}
+header .navbar .nav-link {
+  color: white !important;
+}
+header .navbar form .btn {
+  border-color: #00d673 !important;
+  color: #00d673;
+}
+header .navbar form a {
+  display: flex;
+  text-decoration: none;
+}
+header .navbar form a span {
+  color: white;
+  position: relative;
+  right: 41%;
+  bottom: 2px;
+  cursor: pointer;
+}
+header .navbar form a img {
+  height: 39px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+main {
+  background-color: gray;
+}
+main #products {
+  height: 100vh;
+}
+main #products h2 {
+  padding-bottom: 0px !important;
+}
+main #products .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+}
+main #products .card img {
+  width: 75% !important;
+}
+main #products .card .card-body .price {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+main #products .card .card-body .price span {
+  font-family: monospace;
+  font-size: 24px;
+  color: slategray;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #4a4a4a !important;
+  }
+  .navbar a {
+    color: white;
+  }
+  .navbar .nav-link {
+    color: white !important;
+  }
+  .navbar form .btn {
+    border-color: #00d673 !important;
+    color: #00d673;
+  }
+  .navbar form a {
+    display: flex;
+    text-decoration: none;
+  }
+  .navbar form a span {
+    color: white;
+    position: relative;
+    right: 41%;
+    bottom: 2px;
+    cursor: pointer;
+  }
+  .navbar form a img {
+    height: 39px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
